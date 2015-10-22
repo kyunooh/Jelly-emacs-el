@@ -7,6 +7,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/applemac/.emacs.d/"
  "/Users/mac/.emacs.d/"
 )
 
@@ -17,11 +18,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/applemac/" (22056 58932 0 0) "workspace1438692448801Image_upload_test.jpg" "workspace/" "worksapce/" "Thumbs.db" "test" "temp/" "spring/" "Public/" "Pictures/" "openvpn.pid" "nohup.out" "myapp/" "Music/" "Movies/" "MAC APP/" "lomboktest/" "Library/" "javajs/" "hello-scala/" "goree/" "Google Drive/" "GitHub/" "git 복사본/" "git/" "ex17.py" "Dropbox/" "Downloads/" "Documents/" "django/" "Desktop/" "Applications (Parallels)/" "Applications/" "AndroidStudioProjects/" "Abafa/" "49125506.jpg" "1438612135963Image_upload_test.jpg" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-AppleMAC의 iMac-5.0.2" ".yjp/" ".viminfo" ".vim/" ".Trash/" ".swtend-colorpicker-recent" ".swt/" ".subversion/" ".ssh/" ".spotflux/" ".spacemacs" ".scala_history" ".sbt/" ".rnd" ".python_history" ".PyCharm40/" ".putty/" ".profile" ".pip/" ".p2/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".myclirc" ".mycli.log" ".mycli-history" ".m2/" ".local/" ".kdiff3rc" ".ivy2/" ".IntelliJIdea14/" ".idlerc/" ".ideaLibSources/" ".hgignore_global" ".gradle/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs.bak2" ".emacs.bak/" ".eclipse_keyring" ".eclipse/" ".dtLiteMacLicense.dat" ".DS_Store" ".dropbox/" ".dbk_info" ".d5w2rc" ".cups/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".bash_profile.swp" ".bash_profile.pysave" ".bash_profile.macports-saved_2015-07-21_at_23:50:47" ".bash_profile" ".bash_history" ".android/" ".adobe/" ".activator/" "'15년 지정업체 선정 및 '16년 인원배정 고시.hwp" "#.emacs#" "../" "./")
+
+ ("/Users/applemac/.emacs.d/" (22056 58933 0 0) "starter-kit.org" "starter-kit.elc" "starter-kit.el" "starter-kit-yasnippet.org" "starter-kit-scala.org" "starter-kit-ruby.org" "starter-kit-registers.org" "starter-kit-registers.elc" "starter-kit-registers.el" "starter-kit-python.org" "starter-kit-python.el" "starter-kit-publish.org" "starter-kit-perl.org" "starter-kit-org.org" "starter-kit-misc.org" "starter-kit-misc.elc" "starter-kit-misc.el" "starter-kit-misc-recommended.org" "starter-kit-lisp.org" "starter-kit-latex.org" "starter-kit-js.org" "starter-kit-haskell.org" "starter-kit-gnus.org" "starter-kit-g-client.org" "starter-kit-eshell.org" "starter-kit-defuns.org" "starter-kit-defuns.elc" "starter-kit-defuns.el" "starter-kit-bindings.org" "starter-kit-bindings.elc" "starter-kit-bindings.el" "src/" "snippets/" "places" "Makefile" "literate-starter-kit-pkg.el" "init.el" "ido.last" "highlight-symbol.el" "elpa/" "COPYING" "backups/" "auto-save-list/" "ac-comphist.dat" ".python-environments/" ".git/" "../" "./")
+
+ ("/Users/" (21927 9202 0 0) "smook/" "Shared/" "applemac/" ".localized" "../" "./")
+
  ("/Users/mac/.emacs.d/" (22056 27457 0 0) "starter-kit.org" "starter-kit.elc" "starter-kit.el" "starter-kit-yasnippet.org" "starter-kit-scala.org" "starter-kit-ruby.org" "starter-kit-registers.org" "starter-kit-registers.elc" "starter-kit-registers.el" "starter-kit-python.org" "starter-kit-python.el" "starter-kit-publish.org" "starter-kit-perl.org" "starter-kit-org.org" "starter-kit-misc.org" "starter-kit-misc.elc" "starter-kit-misc.el" "starter-kit-misc-recommended.org" "starter-kit-lisp.org" "starter-kit-latex.org" "starter-kit-js.org" "starter-kit-haskell.org" "starter-kit-gnus.org" "starter-kit-g-client.org" "starter-kit-eshell.org" "starter-kit-defuns.org" "starter-kit-defuns.elc" "starter-kit-defuns.el" "starter-kit-bindings.org" "starter-kit-bindings.elc" "starter-kit-bindings.el" "src/" "snippets/" "README" "places" "Makefile" "literate-starter-kit-pkg.el" "init.el" "ido.last" "elpa/" "COPYING" "backups/" "auto-save-list/" "ac-comphist.dat" ".python-environments/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/mac/workspace/django-tdd/superlists/" (22056 27466 0 0) "superlists/" "manage.py" "lists/" "functional_test.py~" "functional_test.py" "db.sqlite3" ".gitignore" ".git/" "#functional_test.py#" "../" "./")
-
- ("/Users/" (21927 12751 0 0) "Shared/" "mac/" "Guest/" ".localized" "../" "./")
 
  ("/Users/mac/" (22056 26651 0 0) "workspace/" "Untitled.png" "Public/" "posts with count.csv" "Pictures/" "Music/" "Movies/" "Library/" "JellyBlog/" "hello-scala/" "goree_model.png" "goree/" "Google Drive/" "ex8.py" "ex13.py~" "ex13.py" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "beginning-spring-4/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-mac의 MacBook Air-5.0.5" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".spacemacs" ".scala_history" ".sbt/" ".rnd" ".python_history" ".profile.pysave" ".profile" ".p2/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".myclirc" ".mycli.log" ".mycli-history" ".matplotlib/" ".m2/" ".local/" ".ivy2/" ".IntelliJIdea14/" ".idlerc/" ".hgignore_global" ".gradle/" ".gnupg/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d.bak/" ".emacs.d/" ".emacs.bak" ".eclipse/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".android/" ".activator/" "#ne#" "../" "./")
 
