@@ -1,2 +1,4 @@
 ;;; -*- coding: utf-8 -*-
-nil
+(("/Users/applemac/.emacs.d/elpa/starter-kit-lisp-20120504.1225/starter-kit-lisp-autoloads.el" . 1969)
+ ("/Users/applemac/.emacs.d/elpa/elisp-slime-nav-20150805.1248/elisp-slime-nav-autoloads.el" . 1237)
+ ("/Users/applemac/.emacs.d/elpa/starter-kit-js-20111009.2054/starter-kit-js-autoloads.el" . 754))

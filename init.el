@@ -43,4 +43,24 @@
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
 
+
+(set-face-font 'default "Monaco-12")
+(set-fontset-font "fontset-default" '(#x1100 . #xffdc)
+                  '("NanumGothicOTF" . "iso10646-1"))
+(set-fontset-font "fontset-default" '(#xe0bc . #xf66e)
+                  '("NanumGothicOTF" . "iso10646-1"))
+(set-fontset-font "fontset-default" 'kana
+                  '("Hiragino Kaku Gothic Pro" . "iso10646-1"))
+(set-fontset-font "fontset-default" 'han
+                  '("Hiragino Kaku Gothic Pro" . "iso10646-1"))
+(set-fontset-font "fontset-default" 'japanese-jisx0208
+                  '("Hiragino Kaku Gothic Pro" . "iso10646-1"))
+(set-fontset-font "fontset-default" 'katakana-jisx0201
+                  '("Hiragino Kaku Gothic Pro" . "iso10646-1"))
+
+(setq face-font-rescale-alist
+      '((".*hiragino.*" . 1.2)
+        (".*nanum.*" . 1.3)))
+
+(global-linum-mode 1)
 ;;; init.el ends here
