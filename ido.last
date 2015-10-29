@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/" . "Network/")
+ ("/Users/applemac/workspace/django-girls/blog/templates/" . "blog/")
+ ("/Users/applemac/workspace/django-girls/blog/" . "templates/")
+ ("/Users/applemac/workspace/django-girls/blog/static/" . "css/")
+ ("/Users/applemac/workspace/django-girls/" . "blog/")
+ ("/Users/applemac/workspace/" . "pingdumb/")
  ("/Users/applemac/" . ".emacs.d/")
  ("/Users/applemac/workspace/django-tdd/" . "superlists/")
  ("/Users/applemac/workspace/django-tdd/lists/" . "templates/")
@@ -11,6 +17,12 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/applemac/.emacs.d/"
+ "/Users/applemac/workspace/pingdumb/"
+ "/Users/applemac/workspace/django-girls/blog/templates/blog/"
+ "/Users/applemac/workspace/django-girls/blog/"
+ "/Users/applemac/workspace/django-girls/"
+ "/Users/applemac/workspace/django-girls/blog/static/css/"
+ "/Users/applemac/workspace/django-girls/mysite/"
  "/Users/applemac/workspace/django-tdd/lists/"
  "/Users/applemac/workspace/django-tdd/lists/templates/"
  "/Users/applemac/workspace/django-tdd/superlists/"
@@ -20,26 +32,49 @@
 
 ;; ----- ido-work-file-list -----
 (
- "COPYING"
- "tests.py"
- "home.html"
- "views.py"
- "settings.py"
- "functional_test.py"
  "init.el"
+ "pingdumb.py"
+ "Archive.zip"
+ "post_edit.html"
+ "urls.py"
+ "base.html"
+ "forms.py"
+ ".gitignore"
+ "post_detail.html"
+ "views.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/applemac/.emacs.d/" (22056 62738 0 0) "starter-kit.org" "starter-kit.elc" "starter-kit.el" "starter-kit-yasnippet.org" "starter-kit-scala.org" "starter-kit-ruby.org" "starter-kit-registers.org" "starter-kit-registers.elc" "starter-kit-registers.el" "starter-kit-python.org" "starter-kit-python.el" "starter-kit-publish.org" "starter-kit-perl.org" "starter-kit-org.org" "starter-kit-misc.org" "starter-kit-misc.elc" "starter-kit-misc.el" "starter-kit-misc-recommended.org" "starter-kit-lisp.org" "starter-kit-latex.org" "starter-kit-js.org" "starter-kit-haskell.org" "starter-kit-gnus.org" "starter-kit-g-client.org" "starter-kit-eshell.org" "starter-kit-defuns.org" "starter-kit-defuns.elc" "starter-kit-defuns.el" "starter-kit-bindings.org" "starter-kit-bindings.elc" "starter-kit-bindings.el" "src/" "snippets/" "places" "Makefile" "literate-starter-kit-pkg.el" "init.el" "ido.last" "highlight-symbol.el" "elpa/" "COPYING" "backups/" "auto-save-list/" "ac-comphist.dat" ".python-environments/" ".git/" "../" "./")
+ ("/Users/applemac/.emacs.d/" (22065 60474 0 0) "url/" "starter-kit.org" "starter-kit.elc" "starter-kit.el" "starter-kit-yasnippet.org" "starter-kit-scala.org" "starter-kit-ruby.org" "starter-kit-registers.org" "starter-kit-registers.elc" "starter-kit-registers.el" "starter-kit-python.org" "starter-kit-python.el" "starter-kit-publish.org" "starter-kit-perl.org" "starter-kit-org.org" "starter-kit-misc.org" "starter-kit-misc.elc" "starter-kit-misc.el" "starter-kit-misc-recommended.org" "starter-kit-lisp.org" "starter-kit-latex.org" "starter-kit-js.org" "starter-kit-haskell.org" "starter-kit-gnus.org" "starter-kit-g-client.org" "starter-kit-eshell.org" "starter-kit-defuns.org" "starter-kit-defuns.elc" "starter-kit-defuns.el" "starter-kit-bindings.org" "starter-kit-bindings.elc" "starter-kit-bindings.el" "src/" "snippets/" "recentf" "places" "literate-starter-kit-pkg.el" "init.el" "ido.last" "highlight-symbol.el" "elpa/" "COPYING" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".python-environments/" ".last-package-update-day" ".gitignore" ".git/" "../" "./")
 
- ("/Users/applemac/" (22056 62748 0 0) "workspace1438692448801Image_upload_test.jpg" "workspace/" "worksapce/" "Thumbs.db" "test" "temp/" "spring/" "Public/" "Pictures/" "openvpn.pid" "nohup.out" "myapp/" "Music/" "Movies/" "MAC APP/" "lomboktest/" "Library/" "javajs/" "hello-scala/" "goree/" "Google Drive/" "GitHub/" "git 복사본/" "git/" "ex17.py" "Dropbox/" "Downloads/" "Documents/" "django/" "Desktop/" "Applications (Parallels)/" "Applications/" "AndroidStudioProjects/" "Abafa/" "49125506.jpg" "1438612135963Image_upload_test.jpg" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-AppleMAC의 iMac-5.0.2" ".yjp/" ".viminfo" ".vim/" ".Trash/" ".swtend-colorpicker-recent" ".swt/" ".subversion/" ".ssh/" ".spotflux/" ".spacemacs" ".scala_history" ".sbt/" ".rnd" ".python_history" ".PyCharm40/" ".putty/" ".profile" ".pip/" ".p2/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".myclirc" ".mycli.log" ".mycli-history" ".m2/" ".local/" ".kdiff3rc" ".ivy2/" ".IntelliJIdea14/" ".idlerc/" ".ideaLibSources/" ".hgignore_global" ".gradle/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs.bak2" ".emacs.bak/" ".eclipse_keyring" ".eclipse/" ".dtLiteMacLicense.dat" ".DS_Store" ".dropbox/" ".dbk_info" ".d5w2rc" ".cups/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".bash_profile.swp" ".bash_profile.pysave" ".bash_profile.macports-saved_2015-07-21_at_23:50:47" ".bash_profile" ".bash_history" ".android/" ".adobe/" ".activator/" "'15년 지정업체 선정 및 '16년 인원배정 고시.hwp" "#.emacs#" "../" "./")
+ ("/Users/applemac/" (22065 59441 0 0) "workspace1438692448801Image_upload_test.jpg" "workspace/" "worksapce/" "Thumbs.db" "test" "temp/" "spring/" "Qt5.5.1/" "Qt/" "Public/" "Pictures/" "openvpn.pid" "nohup.out" "myapp/" "Music/" "Movies/" "MAC APP/" "lomboktest/" "Library/" "javajs/" "hello-scala/" "goree/" "Google Drive/" "GitHub/" "git 복사본/" "git/" "ex17.py" "Dropbox/" "Downloads/" "Documents/" "django/" "Desktop/" "Applications (Parallels)/" "Applications/" "AndroidStudioProjects/" "Abafa/" "49125506.jpg" "1438612135963Image_upload_test.jpg" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-AppleMAC의 iMac-5.0.2" ".yjp/" ".viminfo" ".vim/" ".Trash/" ".swtend-colorpicker-recent" ".swt/" ".subversion/" ".ssh/" ".spotflux/" ".spacemacs" ".scala_history" ".sbt/" ".rnd" ".python_history" ".PyCharm40/" ".putty/" ".profile" ".pip/" ".p2/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".myclirc" ".mycli.log" ".mycli-history" ".matplotlib/" ".m2/" ".local/" ".kdiff3rc" ".ivy2/" ".IntelliJIdea14/" ".idlerc/" ".ideaLibSources/" ".hgignore_global" ".gradle/" ".gitignore_global" ".gitconfig" ".env/" ".emacs~" ".emacs.d/" ".emacs.bak2" ".emacs.bak/" ".eclipse_keyring" ".eclipse/" ".dtLiteMacLicense.dat" ".DS_Store" ".dropbox/" ".dbk_info" ".d5w2rc" ".cups/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".bash_profile.swp" ".bash_profile.pysave" ".bash_profile.macports-saved_2015-07-21_at_23:50:47" ".bash_profile" ".bash_history" ".android/" ".adobe/" ".activator/" "'15년 지정업체 선정 및 '16년 인원배정 고시.hwp" "#.emacs#" "../" "./")
+
+ ("/Users/applemac/workspace/pingdumb/" (22065 59652 0 0) "test_module.py" "pingdumb.pyc" "pingdumb.py" "pingdumb.json" "nohup.out" "module.pyc" "module.py" "Archive.zip" ".idea/" ".DS_Store" ".cache/" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/" (22063 40973 0 0) "myvenv/" "mysite/" "manage.py" "db.sqlite3" "blog/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/blog/" (22063 40767 0 0) "views.py" "urls.py" "tests.pyc" "tests.py" "templates/" "static/" "models.py" "migrations/" "forms.py" "admin.py" "__pycache__/" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/blog/templates/blog/" (22063 40892 0 0) "post_list.html" "post_edit.html" "post_detail.html" "base.html" "../" "./")
+
+ ("/Network/" (21017 19647 0 0) "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/blog/static/css/" (22061 2736 0 0) "blog.css" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/blog/static/" (22060 65214 0 0) "css/" "../" "./")
+
+ ("/Users/applemac/.emacs.d/elpa/django-mode-20150207.517/" (22060 64068 0 0) "django-mode.elc" "django-mode.el" "django-mode-pkg.el" "django-mode-autoloads.el" "django-html-mode.el" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/blog/templates/" (22060 50191 0 0) "blog/" "../" "./")
+
+ ("/Users/applemac/workspace/django-girls/mysite/" (22060 49611 0 0) "wsgi.py" "urls.py" "settings.py" "__pycache__/" "__init__.py" "../" "./")
+
+ ("/Users/applemac/workspace/" (22060 48704 0 0) "pingdumb/" "learningPython/" "django-tdd/" "django-girls/" ".DS_Store" "../" "./")
 
  ("/Users/applemac/workspace/django-tdd/lists/" (22056 61380 0 0) "views.py" "tests.py" "templates/" "models.py" "migrations/" "admin.py" "__pycache__/" "__init__.py" ".#views.py" "#views.py#" "../" "./")
 
  ("/Users/applemac/workspace/django-tdd/superlists/" (22056 61251 0 0) "wsgi.pyc" "wsgi.py" "urls.py" "settings.pyc" "settings.py" "__pycache__/" "__init__.pyc" "__init__.py" "../" "./")
-
- ("/Users/applemac/workspace/" (22056 58997 0 0) "pingdumb/" "learningPython/" "django-tdd/" ".DS_Store" "../" "./")
 
  ("/Users/applemac/workspace/django-tdd/lists/templates/" (22056 60708 0 0) "home.html" "../" "./")
 

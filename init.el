@@ -26,24 +26,33 @@
     ;; load up the starter kit
     (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))))
 
+;; about elpy
 (package-initialize)
 (elpy-enable)
+;; end of elpy
 
+;; about jedi
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)                 ; optional
+;; end of jedi
 
 
+;; about helm
 (require 'helm)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (helm-mode 1)
+;; end of helm
 
+;; about highlight-symbol
 (require 'highlight-symbol)
 (global-set-key [(control f3)] 'highlight-symbol)
 (global-set-key [f3] 'highlight-symbol-next)
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
+;;end highlight-symbol
 
 
+;; about font setting
 (set-face-font 'default "Monaco-12")
 (set-fontset-font "fontset-default" '(#x1100 . #xffdc)
                   '("NanumGothicOTF" . "iso10646-1"))
@@ -61,6 +70,15 @@
 (setq face-font-rescale-alist
       '((".*hiragino.*" . 1.2)
         (".*nanum.*" . 1.3)))
+;; end of font setting
 
+;; about auto package update
+(require 'auto-package-update)
+(auto-package-update-maybe)
+;; end of auto package update
+
+;;about linum mode setting
 (global-linum-mode 1)
+;; end of linum mode setting
+
 ;;; init.el ends here
