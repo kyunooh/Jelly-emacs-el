@@ -81,4 +81,14 @@
 (global-linum-mode 1)
 ;; end of linum mode setting
 
+;; about pyflake
+
+;; endof pyflake
+
+;;  about python-django
+(add-to-list 'load-path "/folder/containing/file")
+(require 'python-django)
+;; endof python-django
+
 ;;; init.el ends here
+(put 'upcase-region 'disabled nil)
