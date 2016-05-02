@@ -137,6 +137,4 @@ to your configuration."
                      (directory-files user-dir t ".*\.\\(org\\|el\\)\\(\\.gpg\\)?$"))
              :test #'string=)))))
 
-(starter-kit-load "python")
-
 (load custom-file 'noerror)
